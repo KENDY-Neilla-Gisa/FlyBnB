@@ -10,11 +10,13 @@
 <body>
     <div class="header">
         <nav id="navBar">
-            <img src="Images/logo.png" class="logo">
+            <a href="index.html">
+                <img src="Images/logo.png" class="logo">
+            </a>
             <ul class="nav-links">
-                <li><a href="#" class="active">Popular Places</a></li>
-                <li><a href="#">Travel Outside</a></li>
-                <li><a href="#">Online Packages</a></li>
+                <li><a href="#trending" class="active">Popular Places</a></li>
+                <li><a href="#exclusives">Travel Outside</a></li>
+                <li><a href="listing.html">Online Packages</a></li>
             </ul>
             <a href="#" class="register-btn">Register Now</a>
             <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
@@ -45,7 +47,7 @@
         </div>
     </div>
     <div class="container">
-        <h2 class="sub-title">Exclusives</h2>
+        <h2 class="sub-title" id="exclusives">Exclusives</h2>
         <div class="exclusives">
             <div>
                 <img src="Images/image-1.png">
@@ -119,7 +121,7 @@
             </div>
         </div>
 
-        <h2 class="sub-title">Trending Places</h2>
+        <h2 class="sub-title" id="trending">Trending Places</h2>
         <div class="trending">
             <div>
                 <img src="Images/dubai.png">
