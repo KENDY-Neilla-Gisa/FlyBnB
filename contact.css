@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(#ffdad5, #fff7f9);
+    background: linear-gradient(#e7d9c0, #e5d5ba);
 }
 .contact-container{
     height: 100vh;
@@ -21,7 +21,7 @@ body{
 }
 .contact-left-title h2{
     font-weight: 600;
-    color: #a363aa;
+    color: #826431;
     font-size: 40px;
     margin-bottom: 5px;
 }
@@ -29,7 +29,7 @@ body{
     border: none;
     width: 120px;
     height: 5px;
-    background-color: #a363aa;
+    background-color: #826431;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -63,7 +63,7 @@ body{
     gap: 10px;
     border: none;
     border-radius: 50px;
-    background: linear-gradient(270deg, #ff994f, #fa6d86);
+    background: linear-gradient(270deg, #7c5f2e, #a07a3c);
     cursor: pointer;
 }
 .contact-left button img{
